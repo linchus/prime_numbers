@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 matrix_size = ARGV.first.to_i
 abort('Matrix size should be greater then 0') unless matrix_size > 0
 
